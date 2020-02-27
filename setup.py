@@ -11,6 +11,7 @@ setup(
   download_url = 'https://github.com/laberge1/pyfolio_v0p5p3/archive/v0.5.3.tar.gz',    # I explain this later on
   keywords = ['pyfolio', 'finance', 'stock analysis','stock','back testing'],   # Keywords that define your package best
   install_requires = [
+    'ipython>=3.2.3',
     'matplotlib>=1.4.0',
     'numpy>=1.11.1',
     'pandas>=0.18.1',
@@ -18,7 +19,7 @@ setup(
     'scipy>=0.14.0',
     'scikit-learn>=0.16.1',
     'seaborn>=0.7.1',
-    'empyrical>=0.5.0',
+    'pandas-datareader>=0.8.1',
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
